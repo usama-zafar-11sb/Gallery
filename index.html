@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="gallery-container">
+      <div class="full-size-image" id="full-size-image">
+        <img src="img 5.jpg" alt="Full Size Image" id="displayed-image" />
+      </div>
+      <div class="thumbnails">
+        <img
+          src="img 1.jpg"
+          alt="Thumbnail 1"
+          onclick="showImage('img 1.jpg')"
+        />
+        <img
+          src="img 2.jpg"
+          alt="Thumbnail 2"
+          onclick="showImage('img 2.jpg')"
+        />
+        <img
+          src="img 3.jpg"
+          alt="Thumbnail 3"
+          onclick="showImage('img 3.jpg')"
+        />
+        <img
+          src="img 4.jpg"
+          alt="Thumbnail 4"
+          onclick="showImage('img 4.jpg')"
+        />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
